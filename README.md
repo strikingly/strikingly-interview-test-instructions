@@ -100,7 +100,7 @@ Note: You can get your `playerId` from your invitation email.
   "sessionId": "04ccda515d152cbe630e156af9095104",
   "data": {
      "numberOfWordsToGuess": 80,
-     "numberOfGuessAllowedForEachWord": 10
+     "numberOfWrongGuessAllowedForEachWord": 10
   }
 }
 ```
@@ -110,7 +110,7 @@ Note: You can get your `playerId` from your invitation email.
 * `data`
   * `numberOfWordsToGuess` - tells you how many words you will have to guess to
     finish the game.
-  * `numberOfGuessAllowedForEachWord` - tells you how many INCORRECT guess you
+  * `numberOfWrongGuessAllowedForEachWord` - tells you how many INCORRECT guess you
     may have for each word.
 
 
